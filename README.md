@@ -1,10 +1,3 @@
-My Personal Portfolio
+# My Personal Portfolio
 
-Add Name on first page with Age
-
-Scroll down for qualifications
-SSC HSC CET JEE, etc.
-
-Add course and certifications
-Skills
-Hobbies
+Welcome to my Portfolio! it will be up soon when I learn HTML and CSS
