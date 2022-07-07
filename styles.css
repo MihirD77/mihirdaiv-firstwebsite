@@ -33,6 +33,10 @@ hr {
     padding: 0.5rem 1rem;
 }
 
+.link .link-active {
+    font-weight: bolder;
+}
+
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -127,6 +131,11 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: larger;
 }
 
 .footer .link {
