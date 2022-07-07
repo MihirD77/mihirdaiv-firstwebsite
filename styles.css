@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {
@@ -11,6 +11,7 @@ hr {
 :root {
     --primary-color: #7e22ce;
     --dark-blue: #1e3a8a;
+    --sky-blue: #e0f2fe;
 }
 
 /** container **/
@@ -98,4 +99,18 @@ hr {
     padding-top: 1rem;
     color: var(--dark-blue);
     text-align: center;
+}
+
+/* sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--sky-blue);
 }
