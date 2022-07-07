@@ -10,7 +10,8 @@ hr {
 
 :root {
     --primary-color: #7e22ce;
-    --dark-blue: #1e3a8a;
+    --gray: #6b7280;
+    --dark-blue:#1e40af;
     --sky-blue: #e0f2fe;
 }
 
@@ -95,10 +96,14 @@ hr {
 }
 
 .hero .hero-heading {
-    font-weight: bolder;
-    padding-top: 1rem;
-    color: var(--dark-blue);
     text-align: center;
+    padding-top: 1rem;
+    color: var(--gray);
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--dark-blue);
 }
 
 /* sections */
@@ -113,4 +118,21 @@ hr {
 
 .ow {
     background-color: var(--sky-blue);
+}
+
+/* footers */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
